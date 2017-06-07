@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <title>Mijn php-script</title>
+</head>
+<body>
+<h3>Hoofdsteden</h3>
+<?php
+$land = array ("Duitsland","Belgie", "Frankrijk", "Engeland" );
+$hoofdstad = array("Berlijn","Brussel", "Parijs", "London");
+
+echo("De hoofdstad van " . $land [0] . "\n" . "is" . "\n" . $hoofdstad [0])."<br />";
+echo("De hoofdstad van " . $land [1] . "\n" . "is" . "\n" . $hoofdstad [1])."<br />";
+echo("De hoofdstad van " . $land [2] . "\n" . "is" . "\n" . $hoofdstad [2])."<br />";
+echo("De hoofdstad van " . $land [3] . "\n" . "is" . "\n" . $hoofdstad [3])."<br />";
+?>
+</body>
+</html>
